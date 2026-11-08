@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# 环境变量与密钥
+.env
+.env.*
+!.env.example
+
+# 编辑器
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 数据库与运行期文件
+*.db
+*.sqlite3
+data/uploads/
+
+# 日志
+*.log
